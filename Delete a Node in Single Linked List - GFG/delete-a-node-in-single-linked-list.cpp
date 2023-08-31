@@ -82,7 +82,11 @@ struct Node
     }
 };
 */
+
 /*You are required to complete below method*/
+
+/*You are required to complete below method*/
+
 Node* deleteNode(Node *ll,int x){
     if(x == 1) return ll -> next;
     
