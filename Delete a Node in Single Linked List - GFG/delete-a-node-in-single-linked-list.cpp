@@ -91,6 +91,7 @@ Node* deleteNode(Node *ll,int x){
     while(head){
         if(temp == x - 1){
             head -> next = head -> next -> next;
+            break;
         }
         head = head -> next;
         temp++;
